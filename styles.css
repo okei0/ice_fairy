@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     padding: 0px;
     margin: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .header {
@@ -20,13 +21,18 @@ body {
 
 ul {
     display: flex;
+    align-items: center;
     gap: 16px;
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .section {
