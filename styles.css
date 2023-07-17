@@ -36,7 +36,7 @@ a {
 }
 
 .section {
-    background-color: #1f2937;
+    background-image: linear-gradient(157deg, #256eff,#c325ff);
     padding: 16px 10vw;
 }
 
