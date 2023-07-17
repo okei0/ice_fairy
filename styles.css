@@ -2,18 +2,28 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 16px 100px;
+    padding: 16px 10vw;
     margin: 0px;
 }
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    height: 5vh;
-    flex: 0 0 auto;
+    height: 50px;
+    flex: 1 0 auto;
     margin-right: auto;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
