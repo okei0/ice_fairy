@@ -90,12 +90,13 @@ ul {
 .content-header {
     font-weight: 1000;
     font-size: 48px;
-    margin: 0px;
+    margin: 20px 0px;
     padding: 0px;
 }
 
 .subtext {
     font-size: 18px;
+    flex-shrink: 0;
 }
 
 .join_button {
@@ -110,4 +111,44 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.sec-03 {
+    padding: 16px 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.sec-03 .content-header {
+    text-align: center;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    height: auto;
+    flex: 0 0 auto;
+    margin: 20px;
+}
+
+.card-img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    flex: 1 0 auto;
+    margin-bottom: 32px;
 }
