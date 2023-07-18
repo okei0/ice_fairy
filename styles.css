@@ -68,6 +68,7 @@ a {
     align-items: center;
     height: 800px;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .content_upper {
@@ -80,4 +81,6 @@ a {
 .cont_left {
     flex-direction: column;
     color: white;
+    flex-shrink: 0;
+    min-width: 600px;
 }
