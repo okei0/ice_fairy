@@ -28,7 +28,7 @@ ul {
     padding: 0px;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -96,4 +96,18 @@ a {
 
 .subtext {
     font-size: 18px;
+}
+
+.join_button {
+    background-color: #256eff;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
