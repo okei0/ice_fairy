@@ -62,13 +62,13 @@ ul {
 }
 
 .sec-04 {
-    padding: 16px 10vw;
+    padding: 10vh 24vw;
     background-color: #ff005312;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    flex: 0 1 auto;
 }
 
 /* --- */
@@ -172,4 +172,16 @@ a {
 
 .cont_right {
     margin: 30px 0px;
+}
+
+.quote-text {
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 100;
+}
+.quoter {
+    font-size: 40px;
+    font-weight: 900;
+    align-self: flex-end;
+    margin-top: 20px;
 }
