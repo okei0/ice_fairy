@@ -194,3 +194,29 @@ a {
     align-self: flex-end;
     margin-top: 20px;
 }
+
+.join_math_class_container {
+    border-radius: 18px;
+    background-color: #529bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: 64px;
+    height: auto;
+    width: 100%;
+}
+
+.join_math_class_container .join_button {
+    background-color: #529bff;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    padding: 16px 48px;
+    font-size: 24px;
+}
+
+.join_math_class_container .content-header {
+    margin: 0px;
+}
