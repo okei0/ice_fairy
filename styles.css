@@ -71,6 +71,15 @@ ul {
     flex: 0 1 auto;
 }
 
+.sec-05 {
+    padding: 16px 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
 /* --- */
 
 .header_logo {
