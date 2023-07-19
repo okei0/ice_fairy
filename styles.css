@@ -109,6 +109,10 @@ ul {
     align-items: center;
 }
 
+.button_anchor {
+    margin: 16px 0px;
+}
+
 a {
     text-decoration: none;
 }
