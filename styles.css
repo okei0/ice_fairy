@@ -80,6 +80,18 @@ ul {
     height: 600px;
 }
 
+.sec-06 {
+    padding: 16px 10vw;
+    background-image: linear-gradient(157deg, #256eff,#c325ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    height: 76px;
+}
+
 /* --- */
 
 .header_logo {
