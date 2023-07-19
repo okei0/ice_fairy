@@ -72,12 +72,17 @@ ul {
 }
 
 .sec-05 {
-    padding: 16px 10vw;
+    padding: 20vh 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 600px;
+
+    background-image: url(Resources/cirno_mic.png);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
 }
 
 .sec-06 {
@@ -203,6 +208,9 @@ a {
 .join_math_class_container {
     border-radius: 18px;
     background-color: #529bff;
+    border-style: solid;
+    border-color: #00ffffcc;
+    border-width: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
