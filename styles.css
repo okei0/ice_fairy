@@ -149,8 +149,8 @@ a {
 
 .card-img {
     border-style: solid;
-    border-radius: 10px;
-    border-color: black;
+    border-radius: 16px;
+    border-color:  #006bff ;
     border-width: 5px;
     width: 300px;
     height: 300px;
