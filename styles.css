@@ -172,6 +172,7 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     width: 300px;
+    height: 600px;
     height: auto;
     flex: 0 0 auto;
     margin: 20px;
@@ -184,8 +185,14 @@ a {
     border-width: 5px;
     width: 300px;
     height: 300px;
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     margin-bottom: 32px;
+}
+
+.card .subtext {
+    flex: 0 0 auto;
+    width: 310px;
+    height: 252px;
 }
 
 .card-img img {
