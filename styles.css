@@ -168,7 +168,7 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     flex-wrap: wrap;
     width: 300px;
     height: auto;
