@@ -186,6 +186,8 @@ a {
     height: 300px;
     flex: 0 0 300px;
     margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
 }
 
 .card .subtext {
